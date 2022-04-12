@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS WORK_EXPERIENCE (
+  id UUID NOT NULL primary key,
+  title VARCHAR(100) NOT NULL,
+  summary VARCHAR(100) NOT NULL,
+  description VARCHAR(5000) NOT NULL,
+  archived boolean NOT NULL DEFAULT FALSE
+);

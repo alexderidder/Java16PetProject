@@ -1,0 +1,5 @@
+databaseChangeLog:
+  - include:
+      file: db/changelog/users.sql
+  - include:
+      file: db/changelog/work_experience.sql
